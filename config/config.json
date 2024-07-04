@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "1324",
+    "database": "learn-sequelize",
+    "dialect": "postgres",
+    "port" : 5432
+  },
+  "test": {
+    "username": "postgres",
+    "password": "1324",
+    "database": "learn-sequelize",
+    "dialect": "postgres",
+    "port" : 5432
+  },
+  "production": {
+    "username": "postgres",
+    "password": "1324",
+    "database": "learn-sequelize",
+    "dialect": "postgres",
+    "port" : 5432
+  }
+}

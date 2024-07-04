@@ -8,6 +8,7 @@ A user management API built with Express, PostgreSQL and Sequelize, featuring fu
 - **UUID Support**: Unique identifiers for users.
 - **Password Hashing**: Secure password storage.
 - **MVC Architecture**: Separation of concerns for maintainability.
+- **Database Migrations**: Manage database schema changes with Sequelize migrations.
 
 ## Technologies Used
 
@@ -35,6 +36,11 @@ A user management API built with Express, PostgreSQL and Sequelize, featuring fu
    Create a PostgreSQL database.
    Configure the database connection in 'config/config.json' file.
 
+### Usage
+- Run database migrations: ```npx sequelize-cli db:migrate```
+- Start the server: ```npm start```
+- The API will be available at 'http://localhost:3000'.
+
 ### Endpoints
 - POST /users \- Create a new user.
 - GET /users \- Get all users.
@@ -48,3 +54,4 @@ A user management API built with Express, PostgreSQL and Sequelize, featuring fu
 - models/ \- Sequelize models.
 - routes/ \- API routes.
 - services/ \- Business logic.
+- migrations/ \- Database migration files.
