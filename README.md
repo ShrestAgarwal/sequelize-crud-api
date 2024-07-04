@@ -36,15 +36,15 @@ A user management API built with Express, PostgreSQL and Sequelize, featuring fu
    Configure the database connection in 'config/config.json' file.
 
 ### Endpoints
-- POST /users: Create a new user.
-- GET /users: Get all users.
-- GET /users/:id : Get a user by ID.
-- PATCH /users/:id : Update a user by ID.
-- DELETE /users/:id : Delete a user by ID.
+- POST /users \- Create a new user.
+- GET /users: \- Get all users.
+- GET /users/:id \- Get a user by ID.
+- PATCH /users/:id \- Update a user by ID.
+- DELETE /users/:id \- Delete a user by ID.
 
 ### Project Structure
-- config/: Database configuration.
-- controllers/: Request handlers.
-- models/: Sequelize models.
-- routes/: API routes.
-- services/: Business logic.
+- config/ \- Database configuration.
+- controllers/ \- Request handlers.
+- models/ \- Sequelize models.
+- routes/ \- API routes.
+- services/ \- Business logic.
