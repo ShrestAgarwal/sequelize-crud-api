@@ -37,7 +37,7 @@ A user management API built with Express, PostgreSQL and Sequelize, featuring fu
 
 ### Endpoints
 - POST /users \- Create a new user.
-- GET /users: \- Get all users.
+- GET /users \- Get all users.
 - GET /users/:id \- Get a user by ID.
 - PATCH /users/:id \- Update a user by ID.
 - DELETE /users/:id \- Delete a user by ID.
