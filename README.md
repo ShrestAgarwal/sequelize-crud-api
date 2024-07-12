@@ -39,7 +39,7 @@ A user management API built with Express, PostgreSQL and Sequelize, featuring fu
 ### Usage
 - Run database migrations: ```npx sequelize-cli db:migrate```
 - Start the server: ```npm start```
-- The API will be available at 'http://localhost:3000'.
+- The API will be available at 'http://localhost:3000/api'.
 
 ### Endpoints
 - POST /users \- Create a new user.
